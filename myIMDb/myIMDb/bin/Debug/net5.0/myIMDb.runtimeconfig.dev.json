@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\GARGEETRIPATHI\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\GARGEETRIPATHI\\.nuget\\packages"
+    ]
+  }
+}
