@@ -3,7 +3,7 @@
 ## Swagger: https://localhost:44358/swagger/index.html
 ## EndPoints:
 ### (1)MOVIE 
-1. POST-/api/Movie: Add Movie without actor details**
+1. POST-/api/Movie: Add Movie without actor details
 Sample input:
 ```
   {"name": "Movie1",
@@ -17,9 +17,10 @@ Sample input:
   }
  ```
   
-*(ii)POST-/api/Movie/add-movie-with-actors: Add Movie with actor details
+2. POST-/api/Movie/add-movie-with-actors: Add Movie with actor details
   Sample input:
-  ```{
+  ```
+  {
   "name": "Movie1",
   "yearOfRelease": "2022-06-29T08:05:34.910Z",
   "plot": "This is a movie about...",
@@ -28,11 +29,13 @@ Sample input:
     1,2,3
   ],
   "producer_id": 2
-   }```
+   }
+   ```
     
-* (iii)GET-/api/Movie/get-all-movies:Get all movies
+3. GET-/api/Movie/get-all-movies:Get all movies
 Sample Output:
-```{
+```
+{
     "id": 1,
     "name": "Batman                                            ",
     "yearOfRelease": "1905-07-16T00:00:00",
@@ -68,11 +71,14 @@ Sample Output:
       "Actor1                                            "
     ],
     "producerName": "Prod3"
-  }]```
+  }]
+  ```
   
-	(iv)GET-/api/Movie/get-movie-by-id/{id}:Get movie by Id
-	Sample input:1
-	Sample output:{
+4. GET-/api/Movie/get-movie-by-id/{id}:Get movie by Id
+Sample input:1
+Sample output:
+```
+{
   "id": 1,
   "name": "Batman                                            ",
   "yearOfRelease": "1905-07-16T00:00:00",
@@ -85,11 +91,13 @@ Sample Output:
   ],
   "producerName": "Prod1"
    }
+```
 
-   (v)PUT-/api/Movie/update-movie-by-id/{id}:Update Movie
-	 Sample input:
-	 id:2
-	 {
+5. PUT-/api/Movie/update-movie-by-id/{id}:Update Movie
+Sample input:
+id:2
+```
+{
   "name": "Movie2",
   "yearOfRelease": "2022-06-29T08:18:58.717Z",
   "plot": "This movie is a fiction..",
@@ -99,10 +107,10 @@ Sample Output:
   ],
   "producer_id": 3
    }
-
-	 (vi)DELETE-/api/Movie/delete-movie-by-id/{id}
-	 Sample input: id:2
-	 (Movie with id=2 will be deleted)
+  ```
+6. DELETE-/api/Movie/delete-movie-by-id/{id}
+Sample input: id:2
+(Movie with id=2 will be deleted)
   
 	
 (2)PRODUCER
