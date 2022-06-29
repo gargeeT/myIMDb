@@ -113,17 +113,22 @@ Sample input: id:2
 (Movie with id=2 will be deleted)
   
 	
-(2)PRODUCER
-     (i)POST-/api/Producer
-          Sample Input:{
+### (2)PRODUCER
+1. POST-/api/Producer
+Sample Input:
+```
+{
   "name": "Producer1",
   "sex": "Male",
   "dob": "2022-06-29T07:53:20.705Z",
   "bio": "Produced Movie1"
-		}
+}
+```
 		
-		(ii)GET-/api/Actor/get-all-producers
-		[
+2. GET-/api/Actor/get-all-producers
+
+```
+[
   {
     "id": 1,
     "name": "Prod1",
@@ -149,22 +154,28 @@ Sample input: id:2
     "movies": null
   }
 ]
-		 (iii)DELET-/api/Produer/delete-producer-by-id/{id}
-		 	 Sample input: id:3
-	 		 (Movie with id=3 will be deleted)
+```
+
+3. DELET-/api/Produer/delete-producer-by-id/{id}
+Sample input: id:3
+(Movie with id=3 will be deleted)
 		 
 		 
-(3)ACTOR
-     (i)POST-/api/Actor
-          Sample Input:{
+### (3)ACTOR
+1. POST-/api/Actor
+Sample Input:
+```
+{
   "name": "Actor1",
   "sex": "Male",
   "dob": "2022-06-29T07:53:20.705Z",
   "bio": "Lead in Movie1"
-		}
+}
+```
 		
-		(ii)GET-/api/Actor/get-all-actor
-		[
+2. GET-/api/Actor/get-all-actor
+```
+[
   {
     "id": 4,
     "name": "Actor1                                            ",
@@ -189,9 +200,10 @@ Sample input: id:2
     "bio": "ccccccccc",
     "movieCasts": null
   }]
+  ```
      
-		 (iii)DELET-/api/Actor/delete-actor-by-id/{id}
-		 	 Sample input: id:4
-	 		 (Movie with id=4 will be deleted)
+3. DELETE-/api/Actor/delete-actor-by-id/{id}
+Sample input: id:4
+(Movie with id=4 will be deleted)
 
   
