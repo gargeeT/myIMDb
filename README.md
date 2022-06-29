@@ -5,7 +5,7 @@ EndPoints:
 (1)MOVIE
   
     (i)POST-/api/Movie: Add Movie without actor details
-    Sample input:"name": "Movie1",
+    Sample input:{"name": "Movie1",
   "yearOfRelease": "2022-06-29T08:03:14.088Z",
   "plot": "This is a movie about...",
   "poster": "http..",
@@ -13,7 +13,7 @@ EndPoints:
     0
   ],
   "producer_id": 1
-  
+  }
   (ii)POST-/api/Movie/add-movie-with-actors: Add Movie with actor details
   Sample input:{
   "name": "Movie1",
