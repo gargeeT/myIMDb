@@ -5,7 +5,7 @@
 ### (1)MOVIE 
 1. POST-/api/Movie: Add Movie without actor details**
 Sample input:
-	```
+```
   {"name": "Movie1",
   "yearOfRelease": "2022-06-29T08:03:14.088Z",
   "plot": "This is a movie about...",
@@ -15,7 +15,7 @@ Sample input:
   ],
   "producer_id": 1
   }
-  ```
+ ```
   
 *(ii)POST-/api/Movie/add-movie-with-actors: Add Movie with actor details
   Sample input:
