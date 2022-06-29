@@ -1,9 +1,9 @@
 # myIMDb
 
-# Swagger: https://localhost:44358/swagger/index.html
+## Swagger: https://localhost:44358/swagger/index.html
 ## EndPoints:
 ### (1)MOVIE 
-** (i)POST-/api/Movie: Add Movie without actor details**
+1. POST-/api/Movie: Add Movie without actor details**
 Sample input:
 	```
   {"name": "Movie1",
