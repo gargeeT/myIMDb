@@ -85,6 +85,7 @@ namespace myIMDb.Data.Services
 
             var _movieWithActors = _context.Movie.Where(n => n.Id == movieId).Select(movie => new MovieWithActorsVM()
             {
+                Id=movieId,
                 Name = movie.Name,
                 YearOfRelease = movie.YearOfRelease,
                 Plot = movie.Plot,
