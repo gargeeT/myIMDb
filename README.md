@@ -4,7 +4,7 @@
 ## EndPoints:
 ### (1)MOVIE 
 1. POST-/api/Movie: Add Movie without actor details
-Sample input:
+* Sample input:
 ```
   {"name": "Movie1",
   "yearOfRelease": "2022-06-29T08:03:14.088Z",
@@ -156,7 +156,7 @@ Sample Input:
 ]
 ```
 
-3. DELET-/api/Produer/delete-producer-by-id/{id}
+3. DELETE-/api/Produer/delete-producer-by-id/{id}
 Sample input: id:3
 (Movie with id=3 will be deleted)
 		 
