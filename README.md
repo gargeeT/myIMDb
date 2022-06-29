@@ -1,11 +1,12 @@
 # myIMDb
 
-Swagger: https://localhost:44358/swagger/index.html
-*EndPoints:
-*(1)MOVIE 
-*(i)POST-/api/Movie: Add Movie without actor details
+# Swagger: https://localhost:44358/swagger/index.html
+## EndPoints:
+### (1)MOVIE 
+** (i)POST-/api/Movie: Add Movie without actor details**
 Sample input:
-	{"name": "Movie1",
+	```
+  {"name": "Movie1",
   "yearOfRelease": "2022-06-29T08:03:14.088Z",
   "plot": "This is a movie about...",
   "poster": "http..",
@@ -14,9 +15,11 @@ Sample input:
   ],
   "producer_id": 1
   }
+  ```
   
-  (ii)POST-/api/Movie/add-movie-with-actors: Add Movie with actor details
-  Sample input:{
+*(ii)POST-/api/Movie/add-movie-with-actors: Add Movie with actor details
+  Sample input:
+  ```{
   "name": "Movie1",
   "yearOfRelease": "2022-06-29T08:05:34.910Z",
   "plot": "This is a movie about...",
@@ -25,10 +28,11 @@ Sample input:
     1,2,3
   ],
   "producer_id": 2
-   }
+   }```
     
-    (iii)GET-/api/Movie/get-all-movies:Get all movies
-    Sample Output:{
+* (iii)GET-/api/Movie/get-all-movies:Get all movies
+Sample Output:
+```{
     "id": 1,
     "name": "Batman                                            ",
     "yearOfRelease": "1905-07-16T00:00:00",
@@ -64,7 +68,7 @@ Sample input:
       "Actor1                                            "
     ],
     "producerName": "Prod3"
-  }]
+  }]```
   
 	(iv)GET-/api/Movie/get-movie-by-id/{id}:Get movie by Id
 	Sample input:1
@@ -181,5 +185,5 @@ Sample input:
 		 (iii)DELET-/api/Actor/delete-actor-by-id/{id}
 		 	 Sample input: id:4
 	 		 (Movie with id=4 will be deleted)
-		 
+
   
