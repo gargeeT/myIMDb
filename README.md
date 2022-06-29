@@ -75,7 +75,7 @@
   ```
   
 4. GET-/api/Movie/get-movie-by-id/{id}:Get movie by Id
-* Sample input:1
+* Sample input:id=1
 * Sample output:
 ```
 {
@@ -94,8 +94,7 @@
 ```
 
 5. PUT-/api/Movie/update-movie-by-id/{id}:Update Movie
-* Sample input:
-* id:2
+* Sample input:id=2
 ```
 {
   "name": "Movie2",
@@ -157,7 +156,7 @@
 ```
 
 3. DELETE-/api/Produer/delete-producer-by-id/{id}
-* Sample input: id:3
+* Sample input: id=3
 (Movie with id=3 will be deleted)
 		 
 		 
@@ -204,7 +203,7 @@
   ```
      
 3. DELETE-/api/Actor/delete-actor-by-id/{id}
-* Sample input: id:4
+* Sample input: id=4
 (Movie with id=4 will be deleted)
 
   
